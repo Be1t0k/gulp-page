@@ -3,7 +3,6 @@
     margin-left: 63px;
     margin-right: 10px;
     height: 97px;
-    border: 1px black solid;
     display: flex;
     align-items: center;
 }
@@ -28,6 +27,9 @@
     display: flex;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+}
 .header__mobile{
     display: flex;
     margin-left: 110px;
@@ -37,11 +39,6 @@
     margin-left: 7px;
     margin-right: 61px;
 }
-// .header__icon{
-//     width: 116px;
-//     display: flex;
-//     justify-content: space-around; 
-// }
 .header__buttons{
     display: flex;
     justify-items: center;
