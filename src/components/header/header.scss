@@ -2,7 +2,6 @@
     margin-top: 26px;
     margin-left: 63px;
     margin-right: 72px;
-    width: 1785px;
     height: 97px;
     border: 1px black solid;
     display: flex;
@@ -18,14 +17,22 @@
     width: 100px;
     height: 97px;
 }
+.header__link{
+    font-size: 16px;
+}
+
 .list{
     font-family: Montserrat;
 }
 .header__mobile{
     display: flex;
+    margin-left: 56px;
+    margin-right: 70px;
 }
 .bold{
-    font-weight: bold;
+    font-weight: 700;
 }
-
-
+.header__icon{
+    width: 20px;
+    height: 20px;
+}
