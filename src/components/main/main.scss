@@ -95,9 +95,6 @@ ul {
     margin-left: 35px;
 }
 
-.red {
-    color: #E33E54;
-}
 
 .rectangle {
     width: 74px;
@@ -168,4 +165,36 @@ ul {
     width: 386px;
     margin-left: 10px;
     margin-right: 20px;
+
+    p {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+.red {
+    color: #E33E54;
+}
+.bold7{
+    font-weight: 700;
+}
+.bold6{
+    font-weight: 600;
+}
+.bold8{
+    font-weight: 800;
+}
+.bold4{
+    font-weight: 400;
 }

@@ -1,6 +1,6 @@
 mixin titler(name)
-    .rectangle
-    p.little__title= name 
+    .rectangle.
+    p.little__title.bold6= name 
 
 mixin processer(num, text)
     .processer
@@ -8,7 +8,8 @@ mixin processer(num, text)
             p=num 
         .processer__text 
             p=text
-mixin card(img,titl)
+mixin card(img,titl,text)
     .cart__icons__cart 
         img(src=img, alt="")
-        p= titl
+        p.bold7= titl
+        span.bold4= text
