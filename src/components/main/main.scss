@@ -40,19 +40,22 @@ main {
 
 .desc-container__description  {
     font-size: 16px;
-    margin-top: 75px;
+    margin-top: 90px;
     line-height: 30px;
 }
 
-
-.desc-container{
+.desc_outer{
     display: flex;
+    width: 1381px;
+    height: 601px;
 }
 .desc_inner__title   {
-    margin-top: 60px;
+    width: 590px;
+    margin-top: 35px;
     font-size: 40px;
     margin-bottom: 0;
     .little__title {
+        margin-top: 30px;
         font-size: 40px;
         margin-bottom: 0;
     }
@@ -66,7 +69,6 @@ main {
 
 ul {
     width: 525px;
-    
     li {
         margin-top: 15px;
         font-size: 16px;
@@ -80,9 +82,10 @@ ul {
         color: orange;
       }
 }
-.image_tube__picture{
-    width: 100px;
-    height: 100px;
+.desc_outer_tube__picture{
+    width: 765px;
+    height: 620px;
+    margin-left: 35px;
 }
 .red {
     color: #E33E54;
