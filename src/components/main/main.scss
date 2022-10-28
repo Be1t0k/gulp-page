@@ -11,7 +11,7 @@ main {
 }
 
 .container {
-    padding-left: 15px;
+    padding-left: 10px;
     margin-top: 56px;
     width: 1218px;
     height: 100%;
@@ -177,7 +177,22 @@ ul {
     }
 }
 
-
+.feedback {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+.feedback__maxi{
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.feedback__mini {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 22px;
+}
 
 
 
@@ -187,15 +202,19 @@ ul {
 .red {
     color: #E33E54;
 }
-.bold7{
+
+.bold7 {
     font-weight: 700;
 }
-.bold6{
+
+.bold6 {
     font-weight: 600;
 }
-.bold8{
+
+.bold8 {
     font-weight: 800;
 }
-.bold4{
+
+.bold4 {
     font-weight: 400;
 }
