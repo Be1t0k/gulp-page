@@ -58,8 +58,16 @@ block content
         img.tel(src="./assets/images/tgr.png", alt="")
         img.inst(src="./assets/images/instr.png", alt="")
         img.what(src="./assets/images/whatr.png", alt="")
-      form(action="post")
-        p Для консультации заполните форму
-        p C вами свяжутся в ближайшее время
-        input(type="text")
-        input(id="phone" type="text")   
+      form.form__feedback(action="post")
+        .form__feedback__text 
+          p.bold7 Для консультации заполните форму
+          p C вами свяжутся в ближайшее время
+        .form__feedback__input
+          input(type="text" placeholder="Ваше имя")
+          input(class="mask-phone form-control" type="text" placeholder="Номер телефона")
+          input.bold7(class="submit__button" type="button" value="Отправить")
+    .video 
+      +titler("Видео об установке")
+      p.video__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        |Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        |Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
