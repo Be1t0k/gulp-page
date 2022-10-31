@@ -19,7 +19,14 @@
 .footer__container__item {
     width: 343px;
     height: 170px;
-    margin-right: 65px;
+    margin-right: 85px;
+}
+.footer__container__item:last-child {
+    position: absolute;
+    right: 220px;
+    width: 343px;
+    height: 170px;
+    margin-left: 100px;
 }
 
 .f_title {
