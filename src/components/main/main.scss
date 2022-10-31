@@ -215,6 +215,8 @@ ul {
     width: 866px;
     text-align: left;
     margin-bottom: 38px;
+    box-shadow: 0px 4px 50px 0px #00000026;
+
 
     .form__feedback__text {
         margin-left: 55px;
@@ -233,6 +235,8 @@ ul {
         margin-right: 16px;
         width: 240px;
         height: 56px;
+        border: 1px solid #E5E5E5;
+        border-radius: 4px;
     }
 
     .submit__button {
