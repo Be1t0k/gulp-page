@@ -12,7 +12,7 @@ block content
     .desc-container
       .desc-container__description 
         p В 
-          span.red Дымоход.ру
+          span.red.bold6 Дымоход.ру
           |&nbsp;вам помогут как приобрести, так и установить дымоход любой конфигурации. В нашем монтажном отделе, состоящим из трёх бригад работают квалифицированные специалисты, которые 
           |ежегодно проходят курсы повышения квалификации. Все работы проводим качественно и аккуратно, в короткий срок и на совесть.
     .desc_outer
@@ -69,7 +69,7 @@ block content
         img.tel(src="./assets/images/tgr.png", alt="")
         img.inst(src="./assets/images/instr.png", alt="")
         img.what(src="./assets/images/whatr.png", alt="")
-      form.form__feedback(action="post")
+      form.form__feedback(id="formid")
         .form__feedback__text 
           p.bold7 Для 
             span.red консультации &nbsp;
@@ -78,14 +78,14 @@ block content
         .form__feedback__input
           input(type="text" placeholder="Ваше имя")
           input(class="mask-phone form-control" type="text" placeholder="Ваш телефон")
-          input.bold7(class="submit__button" type="button" value="отправить")
+          input.bold7(class="submit__button" type="submit")
     .video-block
       +titler("Видео об установке")
       p.video-block__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         |Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         |Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       .video-block__container
-        video.video-block__film(src="./assets/images/es.mp4" autoplay="autoplay" type="video/mp4" controls="controls" )
+        video.video-block__film(src="D:/web_works/gulp-page/src/assets/images/es.mp4" autoplay="autoplay" type="video/mp4" controls="controls" )
         img.video-block__left(src="./assets/images/BlobL.png", alt="")
         img.video-block__right(src="./assets/images/BlobR.png", alt="")
         img.video-block__Gleft(src="./assets/images/Group.png", alt="")
@@ -104,3 +104,5 @@ block content
         +photo("./assets/images/img6.png")
         +photo("./assets/images/img7.png")
         +photo("./assets/images/img8.png")
+
+
